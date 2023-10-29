@@ -1,0 +1,99 @@
+/* Reset some default styles to ensure consistent rendering */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and text color to the body */
+body {
+    background: rgb(2,0,36);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,66,1) 35%, rgba(0,212,255,1) 100%);
+   
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header with a background color, padding, and text styles */
+header {
+    background-color: #0078d4;
+    padding: 20px;
+    color: #fff;
+    text-align: center;}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the sections with padding and margins */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the trail cards in the "Trails" section */
+.trail-card {
+    margin: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.trail-card img {
+    max-width: 100%;
+}
+
+/* Style the gallery images */
+.image-gallery img {
+    max-width: 100%;
+    margin: 10px;
+}
+
+/* Style the form in the "Contact" section */
+form {
+    margin-top: 20px;
+}
+
+form label, form textarea, form input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #0078d4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0078d4;
+    color: #fff;
+}
+
+/* Add media queries for responsive design as needed */
+
